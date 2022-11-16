@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "POPPINS", sans-serif;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(/Users/yeetingng/Desktop/nov14/student-portfolio/marigold.jpeg);
+    overflow-wrap: break-word;
+  }
+  nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 8%;
+  }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(44, 40, 40);
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  nav ul li {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .selfIntro {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: translateY(-50%);
+    font-size: smaller;
+    max-width: 350px;
+    overflow-wrap: break-word;
+  }
+  .btn1 {
+    background-color: #4a2b01;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+  }
+  .title {
+    color: rgb(106, 98, 7);
+    letter-spacing: 2px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bem {
+    height: 70px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Users/yeetingng/Desktop/nov14/student-portfolio/marigold.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .logo {
+    color: rgb(44, 40, 40);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+  }
+  nav ul li a {
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 25px;
+  }
+  .btn {
+    background-color: #4a2b01;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+  }
+  .bem {
+    height: 70px;
+    width: auto;
+  }
+  .selfIntro {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+  }
+}/*# sourceMappingURL=student-portfolio.css.map */
